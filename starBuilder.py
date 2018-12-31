@@ -20,4 +20,7 @@ def habitableStar():
         color = "yellowOrange"
     elif surfaceTemp <= 6000:
         color = "yellowWhite"
-    else color = "white"
+    else: 
+	    color = "white"
+    return mass, diameter, surfaceTemp, lifeTime, brightness, hz, ib, ob, color;
+
