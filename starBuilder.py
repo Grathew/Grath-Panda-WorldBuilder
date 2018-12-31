@@ -13,3 +13,12 @@ brightness = round(mass**3,4)
 hz = round(math.sqrt(brightness),4)
 ib = round(hz*0.95,4)
 ob = round(hz*1.37,4)
+
+if surfaceTemp <= 3700 =:
+         color = "orangeRed"
+elif surfaceTemp <= 5200 =:
+         color = "yellowOrange"
+elif surfaceTemp <= 6000 =:
+         color = "yellowWhite"
+elif surfaceTemp < 6000 =:
+         color = "white"
