@@ -23,4 +23,10 @@ def habitableStar():
     else: 
 	    color = "white"
     return mass, diameter, surfaceTemp, lifeTime, brightness, hz, ib, ob, color;
-
+if __name__=="__main__":
+    star = habitableStar()
+	outFile = open("star.txt","w")
+	for item in star:
+	    outFile.write(str(item) + "\n")
+    outFile.close()
+	
