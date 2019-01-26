@@ -4,6 +4,7 @@ Generates stars for use in solar system creation
 
 import random
 import math
+
 def habitableStar():
     mass = round(random.uniform(0.6,1.4),4)
     diameter = round(mass**0.74,4)
